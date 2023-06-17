@@ -1,0 +1,14 @@
+// const array1 = [1, 2, 3];
+// const array2 = ['a', 'b', 'c'];
+
+// for (let i = 0, j = 0; i < array1.length && j < array2.length; i++, j++) {
+//   const value1 = array1[i];
+//   const value2 = array2[j];
+//   console.log(value1, value2);
+// }
+
+let arr = [1,2,3,4]
+
+for(let i = 0 , j = i+1;i < arr.length , j < arr.length  ; i++){
+    console.log(arr[j]);
+}
